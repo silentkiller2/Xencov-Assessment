@@ -1,0 +1,234 @@
+body {
+  margin: 0 !important;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section1 {
+  color: white;
+  padding: ;
+}
+
+#bimg {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+
+.header nav button {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#headleft,
+#fleft {
+  display: flex;
+  align-items: center;
+}
+
+#headleft a {
+  margin-left: 75px;
+  align-items: center;
+}
+
+#headleft a,
+#headright a {
+  color: white;
+  text-decoration: none;
+}
+
+#bimg2 {
+    margin-bottom: 3%;
+}
+
+#bimg2,
+.footer {
+  padding: 0 5%;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footleft label{
+    font-size: 20px;
+    color: aqua;
+}
+
+#footright button {
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.parta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5%;
+  background-color: rgb(233, 230, 230);
+}
+
+.btext {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.step{
+    margin: 0 10%;
+}
+
+.parta .info .num {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: rgb(0, 81, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parta .info .top #orange {
+  font-size: 50px;
+  color: orange;
+}
+
+.parta .info .bottom #purple {
+  font-size: 50px;
+  color: rgb(89, 0, 255);
+}
+
+.parta .info .top #green {
+  font-size: 50px;
+  color: rgb(4, 196, 202);
+}
+
+.parta .info .bottom #pink {
+  font-size: 50px;
+  color: rgb(255, 0, 170);
+}
+
+.partb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.partb #textb {
+  padding-right: 5%;
+}
+
+#pbimg,
+#pdimg {
+  max-width: fit-content;
+}
+
+.partc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+.partc #textc {
+  padding-left: 5%;
+}
+
+#uline {
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+.partd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.partd #textd {
+  padding-right: 5%;
+}
+
+.parte {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background-color: lightseagreen;
+}
+
+.parte button {
+  color: white;
+  background-color: black;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partf nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+#fleft a {
+  margin-right: 75px;
+}
+
+#fleft a,
+#fright a {
+  color: black;
+  text-decoration: none;
+}
+
+.section3 {
+  padding: 0 5%;
+}
+
+.section3 p {
+  color: rgb(109, 109, 109);
+  font-size: small;
+}
+
+@media screen and (min-width:375px) {
+    #bimg {
+     height: 20%;
+    }
+}
